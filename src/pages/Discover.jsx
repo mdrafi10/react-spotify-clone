@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 import { Error, Loader, SongCard } from "../components";
-// import { selectGenreListId } from '../redux/features/playerSlice';
+import { selectGenreListId } from "../redux/features/playerSlice";
 import { useGetSongsByGenreQuery } from "../redux/services/shazamCore";
 import { genres } from "../assets/constants";
 
