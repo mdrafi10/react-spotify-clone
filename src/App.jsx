@@ -15,7 +15,7 @@ import {
 const App = () => {
   const { activeSong } = useSelector((state) => state.player);
 
-  console.log("hello js spotify");
+  // console.log("hello js spotify");
 
   return (
     <div className="relative flex">
